@@ -1,34 +1,61 @@
-<main>
-    <section class="conteudo">
-        <h1>Fale com a gente</h1>
-        <p>Peça sua aula experimental ou tire dúvidas.</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - CT Alvares Cabral</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <form action="#" method="get">
-            <div class="campo">
-                <label for="nome">Seu nome</label>
-                <input type="text" id="nome" name="nome" required>
-            </div>
+    <header>
+        <p class="logo">CT Alvares Cabral</p>
+        <nav aria-label="Menu principal">
+            <a href="index.html">Início</a>
+            <a href="planos.html">Planos</a>
+            <a href="horarios.html">Horários</a>
+            <a href="contato.html" aria-current="page">Contato</a>
+        </nav>
+    </header>
 
-            <div class="campo">
-                <label for="telefone">Telefone</label>
-                <input type="tel" id="telefone" name="telefone" placeholder="(21) 90000-0000">
-            </div>
+    <main>
+        <section class="conteudo">
+            <h1>Fale com a gente</h1>
+            <p>Peça sua aula experimental ou tire dúvidas.</p>
 
-            <div class="campo">
-                <label for="interesse">Quero</label>
-                <select id="interesse" name="interesse">
-                    <option value="experimental">Agendar uma aula experimental</option>
-                    <option value="planos">Saber mais sobre os planos</option>
-                    <option value="duvida">Tirar uma dúvida</option>
-                </select>
-            </div>
+            <form action="#" method="get">
+                <div class="campo">
+                    <label for="nome">Seu nome</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
 
-            <div class="campo">
-                <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
-            </div>
+                <div class="campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(21) 90000-0000">
+                </div>
 
-            <button type="submit" class="botao">Enviar</button>
-        </form>
-    </section>
-</main>
+                <div class="campo">
+                    <label for="interesse">Quero</label>
+                    <select id="interesse" name="interesse">
+                        <option value="experimental">Agendar uma aula experimental</option>
+                        <option value="planos">Saber mais sobre os planos</option>
+                        <option value="duvida">Tirar uma dúvida</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </div>
+
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CT Alvares Cabral. Treine no seu bairro.</p>
+    </footer>
+
+</body>
+</html>
