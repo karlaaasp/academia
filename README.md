@@ -1,38 +1,42 @@
-# Academia
+# CT Álvares Cabral
 
-Este repositório contém o projeto de site institucional da Academia.
+Projeto de criação de um site para o **CT Álvares Cabral**, uma academia de bairro. A proposta é apresentar o espaço e facilitar o acesso às principais informações para quem deseja começar a treinar.
 
-## Descrição
+> **O projeto ainda está no início e em desenvolvimento.** As páginas e funcionalidades podem mudar conforme novas ideias forem implementadas.
 
-A página foi desenvolvida com HTML e CSS, focando em uma apresentação visual limpa e profissional para a marca/empresa.
+## Sobre o projeto
 
-## Estrutura do projeto
+O site reúne páginas para apresentar a academia, seus planos e horários de funcionamento, além de oferecer uma forma de contato. A página inicial destaca a proximidade, o acompanhamento dos alunos e a simplicidade dos planos.
 
-- `index.html` — página principal
-- `styles.css` — estilos da interface
-- `assets/` — imagens, ícones e outros arquivos estáticos
+## Páginas
 
-## Como visualizar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/karlaaasp/academia.git
-   ```
-2. Acesse a pasta do projeto:
-   ```bash
-   cd academia
-   ```
-3. Abra o arquivo `index.html` no navegador.
+- `index.html` — página inicial, com apresentação do CT e destaques.
+- `planos.html` — opções de planos e informações sobre o que cada um inclui.
+- `horarios.html` — horários de funcionamento e aulas coletivas.
+- `contato.html` — formulário para demonstrar interesse em uma aula experimental ou enviar uma dúvida.
 
 ## Tecnologias
 
-- HTML
-- CSS
+- HTML5 para a estrutura das páginas.
+- CSS3 para a apresentação visual e os estilos compartilhados.
 
-## Autor
+## Estrutura do repositório
 
-- karlaaasp
+- `style.css` — estilos utilizados nas páginas.
+- `imagens/` — imagens usadas no site.
+- Arquivos `.html` — páginas e conteúdo do projeto.
 
-## Licença
+## Como visualizar
 
-Este projeto está disponível sob a licença padrão do repositório.
+Não é necessário instalar dependências. Clone o repositório e abra `index.html` em um navegador:
+
+```bash
+git clone https://github.com/karlaaasp/academia.git
+cd academia
+```
+
+Depois, abra o arquivo `index.html` no navegador.
+
+## Próximos passos
+
+Como o projeto está em fase inicial, novas melhorias podem ser adicionadas gradualmente, como ajustes de conteúdo e visual, revisão da experiência em dispositivos móveis e implementação de funcionalidades adicionais.
